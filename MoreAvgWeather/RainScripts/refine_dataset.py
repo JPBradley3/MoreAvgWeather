@@ -7,7 +7,7 @@ import time
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Tomorrow.io API key
-API_KEY = 'gzbUqV20PILIJ2dR8yegLZpx1NQpkimW'  # Replace with your actual API key
+API_KEY = 'Enter Yours Here'  # Replace with your actual API key
 
 # Coordinates for neighborhoods
 neighborhoods_coordinates = {

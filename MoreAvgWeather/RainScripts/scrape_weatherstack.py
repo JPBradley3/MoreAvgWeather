@@ -3,7 +3,7 @@ import sqlite3
 import datetime
 
 # Replace 'YOUR_API_KEY' with your actual Weatherstack API key
-api_key = '7c9547ba66db97388c7ad3bd85be0364'
+API_KEY = 'Enter Yours Here'
 
 neighborhoods_coordinates = {
     "Capitol Hill": {"latitude": 47.6062, "longitude": -122.3321},

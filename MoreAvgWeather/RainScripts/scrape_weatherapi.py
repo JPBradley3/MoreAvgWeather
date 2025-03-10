@@ -3,7 +3,7 @@ import sqlite3
 import datetime
 
 # Replace 'YOUR_API_KEY' with your actual WeatherAPI key
-api_key = 'd5b6dcf141084dea83710158250703'
+API_KEY = 'Enter Yours Here'
 
 neighborhoods_coordinates = {
     "Capitol Hill": {"latitude": 47.6062, "longitude": -122.3321},

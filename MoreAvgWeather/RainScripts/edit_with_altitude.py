@@ -7,7 +7,7 @@ import time
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
 
 # Replace 'YOUR_API_KEY' with your actual Google Maps Elevation API key
-API_KEY = 'AIzaSyAaRt4kmjgz8m4KaM9KQSA1mGZubviGy1E'
+API_KEY = 'Enter Yours Here'
 ELEVATION_API_URL = 'https://maps.googleapis.com/maps/api/elevation/json'
 
 # Coordinates for neighborhoods

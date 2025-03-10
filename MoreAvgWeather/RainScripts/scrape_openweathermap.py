@@ -3,7 +3,7 @@ import sqlite3
 import datetime
 
 # Replace 'YOUR_API_KEY' with your actual OpenWeatherMap API key
-api_key = '24c7a6e9f2fb8906d8dadac13f189826'
+api_key = 'Enter Yours Here'
 
 neighborhoods_coordinates = {
     "Capitol Hill": {"latitude": 47.6062, "longitude": -122.3321},
