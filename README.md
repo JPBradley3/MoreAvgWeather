@@ -1,16 +1,15 @@
 # MoreAvgWeather
 
 ## Description
-MoreAvgWeather is a series of Python scrapers that utilize machine learning techniques to predict rainfall in various parts of Seattle's hilly terrain. By analyzing factors such as altitude, temperature, wind speed, humidity, and calculated barometric pressure, the project aims to leverage the known phase changes of water to enhance the accuracy of localized precipitation predictions within the city.
+MoreAvgWeather is a web application that provides users with historical and average weather data for various locations. The project aims to deliver easy-to-understand weather trends and insights based on past weather patterns.
 
 ## Features
-- **Data Scraping**: Collects weather-related data from various sources pertinent to Seattle's microclimates.
-- **Machine Learning Models**: Implements algorithms to analyze weather patterns and predict rainfall based on multiple meteorological factors.
-- **Geospatial Analysis**: Considers Seattle's varied altitudes to improve the precision of rainfall predictions across different neighborhoods.
+- **Search Historical Weather Data**: Retrieve average temperature, precipitation, and other weather metrics for specific locations.
+- **Graphical Representations**: View weather trends using interactive charts.
+- **Customizable Date Range**: Select different time periods to analyze historical weather data.
+- **Responsive Design**: Optimized for both desktop and mobile devices.
 
 ## Installation
-*Note: Specific installation instructions are not provided in the repository. The following are general steps to set up a Python-based project:*
-
 1. **Clone the Repository**:
    ```sh
    git clone https://github.com/JPBradley3/MoreAvgWeather.git
@@ -31,20 +30,29 @@ MoreAvgWeather is a series of Python scrapers that utilize machine learning tech
    ```sh
    pip install -r requirements.txt
    ```
-   *Note: The repository does not include a `requirements.txt` file. You may need to create one based on the project's dependencies.*
+
+5. **Set Up API Keys**:
+   - Obtain an API key from a weather data provider (such as NOAA or OpenWeather).
+   - Configure the API key in the environment variables or application settings.
 
 ## Usage
-*Detailed usage instructions are not provided in the repository. The following are general guidelines:*
+To run the application locally:
 
-- **Data Collection**: Run the scraping scripts to gather the necessary weather data.
-- **Model Training**: Use the collected data to train the machine learning models.
-- **Prediction**: Execute the prediction scripts to forecast rainfall in specific areas of Seattle.
+1. **Start the Application**:
+   ```sh
+   python app.py
+   ```
 
-*Refer to the source code and comments within the scripts for more detailed information on how to run the project.*
+2. **Access the Application**:
+   Open a web browser and navigate to `http://localhost:5000` (or the specified port number) to use the application.
 
 ## Technologies Used
 - **Programming Language**: Python
-- **Libraries and Frameworks**: *Specific libraries are not listed in the repository. Common Python libraries for such projects include Pandas, NumPy, Scikit-learn, BeautifulSoup, and Requests.*
+- **Libraries and Frameworks**:
+  - **Flask**: Used for creating the web application.
+  - **Requests**: Utilized for fetching weather data from APIs.
+  - **Matplotlib / Plotly**: Used for generating graphical representations of weather trends.
+  - **Pandas**: For data manipulation and analysis.
 
 ## License
 *The repository does not specify a license. It's advisable to contact the repository owner for clarification before using or distributing the code.*
